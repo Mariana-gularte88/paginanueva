@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+header{
+    background-color: grey lighten-4;
+    text-align: center;
+    padding: 25px 0;
+}
+
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+ nav a:hover{
+    background-color: #000;
+    color: #fff;
+
+ }
+
+.encabezado-img{
+    background-image: url(../img/Banner-CommunityDesarrolloWeb.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.encabezado-img-sobremi{
+    background-image: url(../img/Sobre\ mi.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.encabezado-img-proyectos{
+    background-image: url(../img/Proyectos.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.encabezado-img-planes{
+    background-image: url(../img/Planes.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.encabezado-img-contacto{
+    background-image: url(../img/contacto.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.banner{
+    background-image: url(../img/bannerfoto.png);
+    width: 900px;
+    height: 500px;
+    background-size: cover;
+}
+
+.desarrollo{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   height: 400px;
+   padding: 50px;
+}
+
+.cv{
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+
+.parrafoIndex{
+    font-size: 24px;
+}
+
+.parrafoSobreMi{
+    font-size: 20px;
+}
+
+.planes{
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    font-size: 25px;
+}
